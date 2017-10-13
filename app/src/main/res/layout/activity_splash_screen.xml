@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	style="@style/parent_layout"
+	tools:context="com.example.cia.projectwisatasemarang.SplashScreen">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Wisata Semarang"
+		android:padding="10dp"
+		android:textColor="#ffffff"
+		android:textStyle="bold"
+		android:background="#23b0c6"
+		android:textSize="32sp"/>
+
+</LinearLayout>

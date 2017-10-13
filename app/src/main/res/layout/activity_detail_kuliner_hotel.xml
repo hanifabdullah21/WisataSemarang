@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	style="@style/parent_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context="com.example.cia.projectwisatasemarang.DetailActivityKulinerHotel">
+
+	<TextView
+		android:id="@+id/namaKulinerHotel"
+		style="@style/title_on_detail"/>
+
+	<ImageView
+		android:id="@+id/gambarKulinerHotel"
+		style="@style/image_on_detail"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:text="Alamat"/>
+
+		<TextView
+			android:id="@+id/deskripsiKulinerHotel"
+			style="@style/sub_title_on_detail"/>
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="20dp"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:text="Alamat"/>
+
+		<TextView
+			android:id="@+id/alamatKulinerHotel"
+			style="@style/sub_title_on_detail"/>
+	</LinearLayout>
+
+</LinearLayout>
